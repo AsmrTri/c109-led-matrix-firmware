@@ -66,6 +66,10 @@ Not built into the firmware:
   proc-macro2 1.0.106, qingke-rt-macros 0.7.0, quote 1.0.46, riscv-macros 0.1.0 and 0.3.0, syn 1.0.109 and 2.0.119,
   version_check 0.9.5 (MIT OR Apache-2.0), unicode-ident 1.0.24 ((MIT OR Apache-2.0) AND Unicode-3.0)
 
+Full texts of the licences named above: MIT is in `LICENSE`, Apache-2.0 in `vendor/ch32-hal/LICENSE-APACHE`, and the
+others in `licenses/`: `ISC.txt` (copied from the README of the riscv crates), `MPL-2.0.txt` (from bitmaps),
+`Unlicense.txt` (from byteorder) and `Unicode-3.0.txt` (from unicode-ident).
+
 ## Hardware
 
 The design of the board (schematic and layout) is not published. This repository contains the firmware.
@@ -173,6 +177,10 @@ LLVM の例外つきの Apache-2.0)。
   litrs 1.0.0、paste 1.0.15、proc-macro-error 1.0.4、proc-macro-error-attr 1.0.4、proc-macro2 1.0.106、qingke-rt-macros 0.7.0、
   quote 1.0.46、riscv-macros 0.1.0 と 0.3.0、syn 1.0.109 と 2.0.119、version_check 0.9.5 (MIT か Apache-2.0)、
   unicode-ident 1.0.24 ((MIT か Apache-2.0) と Unicode-3.0)
+
+上に出てくるライセンスの全文: MIT は `LICENSE`、Apache-2.0 は `vendor/ch32-hal/LICENSE-APACHE`。ほかは `licenses/` にある:
+`ISC.txt` (riscv の crate の README から写した)、`MPL-2.0.txt` (bitmaps から)、`Unlicense.txt` (byteorder から)、
+`Unicode-3.0.txt` (unicode-ident から)。
 
 ## 基板
 
