@@ -1,3 +1,9 @@
+// SPDX-License-Identifier: MIT OR Apache-2.0
+// From ch32-hal (https://github.com/ch32-rs/ch32-hal, commit 71a2985). The copyright notice and the licence texts
+// are in vendor/ch32-hal/LICENSE-MIT and vendor/ch32-hal/LICENSE-APACHE.
+// Modified in 2026 by TRI ASMR: EndpointBuffer::read and write copy 16-bit words directly.
+// Details: vendor/README.md.
+
 //! Universal Serial Bus Device(USBD)
 //!
 //! This peripheral is almost the same as usb_v1 in embassy-stm32.

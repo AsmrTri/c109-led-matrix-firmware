@@ -1,3 +1,9 @@
+// SPDX-License-Identifier: MIT OR Apache-2.0
+// From ch32-hal (https://github.com/ch32-rs/ch32-hal, commit 71a2985). The copyright notice and the licence texts
+// are in vendor/ch32-hal/LICENSE-MIT and vendor/ch32-hal/LICENSE-APACHE.
+// Modified in 2026 by TRI ASMR: the 32-bit timer support is also built for chips with TIM5 (cfg peri_tim5).
+// Details: vendor/README.md.
+
 //! Low-level timer driver.
 
 use super::*;
