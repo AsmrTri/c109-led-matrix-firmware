@@ -1,0 +1,6 @@
+[build]
+target = "riscv32imc-unknown-none-elf"
+
+# runner は置かない (cargo run で書き込みのツールが勝手に動かないように)。書き込みは README の手順で
+[target.riscv32imc-unknown-none-elf]
+rustflags = ["-C", "link-arg=-Tlink.x"]
